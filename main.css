@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* body {
+  margin-top: 1.5em;
+  background: url(img/bg.jpg);
+}
+
+* body .grid {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFA500;
+}
+
+* body .grid #quiz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body .grid #quiz h1 {
+  text-align: center;
+  padding: 0.4em;
+  border-bottom: 0.1em solid #FFE900;
+}
+
+* body .grid #quiz h2 {
+  text-align: center;
+  padding: 0.4em;
+}
+
+* body .grid #quiz p {
+  text-align: center;
+  padding: 1em 0.2em;
+  font-size: 1.2em;
+  border-bottom: 0.2em solid #FFE900;
+}
+
+* body .grid #quiz .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.25em 0;
+}
+
+* body .grid #quiz .buttons #btn0,
+* body .grid #quiz .buttons #btn1,
+* body .grid #quiz .buttons #btn2,
+* body .grid #quiz .buttons #btn3 {
+  padding: 0.25em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+* body .grid #quiz footer {
+  border-top: 0.2em solid #FFE900;
+  width: 100%;
+}
+
+* body .grid #quiz footer p {
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=main.css.map */
